@@ -5,7 +5,6 @@
         </template>
 
         <jet-validation-errors class="mb-4" />
-
         <form @submit.prevent="submit">
             <div>
                 <jet-label for="name" value="Name" />
